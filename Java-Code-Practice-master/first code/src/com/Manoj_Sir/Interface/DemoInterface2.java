@@ -6,7 +6,7 @@ public class DemoInterface2 implements DemoInterface{
         System.out.println("Display m1 ");
         System.out.println(DemoInterface.a);
         System.out.println(DemoInterface.b);
-        DemoInterface.abc();
+//        DemoInterface.abc();
 
     }
 
@@ -24,6 +24,6 @@ public class DemoInterface2 implements DemoInterface{
         DemoInterface2 obj=new DemoInterface2();
         obj.m1();
         obj.show();
-
+DemoInterface.abc();
     }
 }

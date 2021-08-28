@@ -11,6 +11,9 @@ public class ArrayListCollection {
         list.add("Test "); //0th position
         list.add("Test 1"); //1st position
         list.add("Test 2"); //2nd position
+        list.add(22);
+        list.remove(2);
+        list.add(2,"M");
 
 //        Advance For Loop
         for(Object val:list){
@@ -44,6 +47,6 @@ stringgenlist.add("Mumbai");
     public static void main(String[] args) {
         ArrayListCollection obj=new ArrayListCollection();
         obj.displaylist();
-        obj.displaylistWithGeneric();
+//        obj.displaylistWithGeneric();
     }
 }
